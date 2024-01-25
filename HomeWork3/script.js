@@ -1,6 +1,5 @@
 //Task1
-
-// let number = prompt("Enter a number:");
+let number = prompt("Enter a number:");
 if (isNaN(number)) {
     alert("Please enter a valid numeric value.");
 } else {
