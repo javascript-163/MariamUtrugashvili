@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1 -->
+    <p id="textInput"></p>
+    <input type="file" id="fileInput" />
+    <button onclick="processFile()">Analyze File</button>
+    <p class="fileInfo" style="display: none;"></p>
+    <br>
+
+    <!-- 2 -->
+     <img alt="image" src="" style="display: none;" class="image">
+     <input type="file" id="imageInput" />
+     <button onclick="loadImage()">Load Image</button>
+     <br>
+ 
+     <!-- 3 -->
+     <video style="display: none;" width="320" height="240" controls class="video">
+         <source src="" type="video/mp4" class="videoSource">
+     </video>
+     <img alt="image" src="" style="display: none;" class="imageMedia">
+     <p style="display: none;" class="textMedia"></p>
+ 
+     <input type="file" id="mediaInput" />
+     <button onclick="loadAllMedia()">Load Media</button>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
