@@ -511,11 +511,15 @@ footer {
 /* კატალოგი */
 
 .catalogFirstSection {
-    border-top: 2px solid #05BCCA;
     background: #1A1A1A;
     display: flex;
     padding: 36px 0;
     justify-content: center;
+}
+#search-input {
+    width: 30%;
+    padding: 10px;
+    font-size: 18px;
 }
 
 .guitarTypes {
