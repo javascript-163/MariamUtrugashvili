@@ -1,0 +1,41 @@
+@media (max-width: 480px) {
+
+    /* Header */
+    header {
+        padding: 28px 8px;
+    }
+
+    .headerLogo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .headerDetails button {
+        width: 32px;
+        height: 32px;
+    }
+
+    .FirstSectionHeader {
+        font-size: 24px;
+        line-height: 32px
+    }
+
+    /* Index Sections */
+    .secondSection {
+        padding: 32px 8px;
+    }
+
+    .secondSectionContainer {
+        grid-template-rows: repeat(2, 160px);
+    }
+
+    .SecondSectionTitle {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .thirdSectionMainTitle {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
