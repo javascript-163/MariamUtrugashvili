@@ -1,6 +1,8 @@
-document.body.addEventListener("click", function() {
-    if (!sessionStorage.getItem('isLoggedIn')) {
-        window.location.href = "register.html";
-    }
+document.addEventListener("DOMContentLoaded", function() {
+    document.body.addEventListener("click", function(event) {
+        if (!sessionStorage.getItem('isLoggedIn')) {
+            event.preventDefault();
+            window.location.href = "register.html";
+        }
+    });
 });
-  
