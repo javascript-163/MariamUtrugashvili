@@ -53,32 +53,17 @@
 
         <!-- Section 1 -->
         <div class="catalogFirstSection">
-            <a href=""><button class="guitarTypes">Classical</button></a>
-            <a href=""><button class="guitarTypes">Acoustic</button></a>
-            <a href=""><button class="guitarTypes active">Electric</button></a>
-            <a href=""><button class="guitarTypes">Bass</button></a>
+            <button class="guitarTypes active" data-filter="all">All</button>
+            <button class="guitarTypes" data-filter="classical">Classical</button>
+            <button class="guitarTypes" data-filter="acoustic">Acoustic</button>
+            <button class="guitarTypes " data-filter="electric">Electric</button>
+            <button class="guitarTypes" data-filter="bass">Bass</button>
         </div>
 
         <!-- Section 2 -->
         <div class="catalogSecondSection">
-            <div class="catalogFilter ">
-                <div class="filterContainer ">
-                    <span class="filterText  filter">Filter</span>
-                    <button class="filterButton">
-                        <img src="images/catalog/filterIcon.svg" alt="filter">
-                    </button>
-                </div>
-                <div class="catalogSort">
-                    <span class="filterText ">Sort by:</span>
-                    <button class="sortButton">
-                        <span>Best selling</span>
-                        <img src="images/catalog/arrowDown.svg" alt="down-arrow">
-                    </button>
-                </div>
-            </div>
-
             <div class="catalogCardContainer">
-                <div class="card card1">
+                <div class="card card1 acoustic">
                     <img alt="guitar" class="card-img" src="images/catalog/guitar1.png">
                     <h6 class="guitarName">lorem ipsum</h6>
                     <div class="reviewStars">
@@ -86,10 +71,10 @@
                             <img class="cardReviews-stars" alt="stars" src="images/catalog/stars.png">
                             <span class="reviewStars">4 reviews</span>
                         </div>
-                        <span class="price">$ 950</span>
+                        <span class="price">$ 250</span>
                     </div>
                 </div>
-                <div class="card card2">
+                <div class="card card2 classical">
                     <img alt="guitar" class="card-img" src="images/catalog/guitar2.png">
                     <h6 class="guitarName">lorem ipsum</h6>
                     <div class="reviewStars">
@@ -97,10 +82,10 @@
                             <img class="cardReviews-stars" alt="stars" src="images/catalog/stars.png">
                             <span class="reviewStars">4 reviews</span>
                         </div>
-                        <span class="price">$ 950</span>
+                        <span class="price">$ 350</span>
                     </div>
                 </div>
-                <div class="card card3">
+                <div class="card card3 electric">
                     <img alt="guitar" class="card-img" src="images/catalog/guitar3.png">
                     <h6 class="guitarName">lorem ipsum</h6>
                     <div class="reviewStars">
@@ -108,10 +93,10 @@
                             <img class="cardReviews-stars" alt="stars" src="images/catalog/stars.png">
                             <span class="reviewStars">4 reviews</span>
                         </div>
-                        <span class="price">$ 950</span>
+                        <span class="price">$ 550</span>
                     </div>
                 </div>
-                <div class="card card4">
+                <div class="card card4 bass">
                     <img alt="guitar" class="card-img" src="images/catalog/guitar4.png">
                     <h6 class="guitarName">lorem ipsum</h6>
                     <div class="reviewStars">
@@ -119,10 +104,10 @@
                             <img class="cardReviews-stars" alt="stars" src="images/catalog/stars.png">
                             <span class="reviewStars">4 reviews</span>
                         </div>
-                        <span class="price">$ 950</span>
+                        <span class="price">$ 1950</span>
                     </div>
                 </div>
-                <div class="card card5">
+                <div class="card card5 bass">
                     <img alt="guitar" class="card-img" src="images/catalog/guitar5.png">
                     <h6 class="guitarName">lorem ipsum</h6>
                     <div class="reviewStars">
@@ -130,10 +115,10 @@
                             <img class="cardReviews-stars" alt="stars" src="images/catalog/stars.png">
                             <span class="reviewStars">4 reviews</span>
                         </div>
-                        <span class="price">$ 950</span>
+                        <span class="price">$ 1750</span>
                     </div>
                 </div>
-                <div class="card card6">
+                <div class="card card6 bass">
                     <img alt="guitar" class="card-img" src="images/catalog/guitar6.png">
                     <h6 class="guitarName">lorem ipsum</h6>
                     <div class="reviewStars">
@@ -141,10 +126,10 @@
                             <img class="cardReviews-stars" alt="stars" src="images/catalog/stars.png">
                             <span class="reviewStars">4 reviews</span>
                         </div>
-                        <span class="price">$ 950</span>
+                        <span class="price">$ 1450</span>
                     </div>
                 </div>
-                <div class="card card7">
+                <div class="card card7 bass">
                     <img alt="guitar" class="card-img" src="images/catalog/guitar7.png">
                     <h6 class="guitarName">lorem ipsum</h6>
                     <div class="reviewStars">
@@ -155,7 +140,7 @@
                         <span class="price">$ 950</span>
                     </div>
                 </div>
-                <div class="card card8">
+                <div class="card card8 electric">
                     <img alt="guitar" class="card-img" src="images/catalog/guitar8.png">
                     <h6 class="guitarName">lorem ipsum</h6>
                     <div class="reviewStars">
@@ -166,7 +151,7 @@
                         <span class="price">$ 950</span>
                     </div>
                 </div>
-                <div class="card card9">
+                <div class="card card9 electric">
                     <img alt="guitar" class="card-img" src="images/catalog/guitar9.png">
                     <h6 class="guitarName">lorem ipsum</h6>
                     <div class="reviewStars">
@@ -177,7 +162,7 @@
                         <span class="price">$ 950</span>
                     </div>
                 </div>
-                <div class="card card10">
+                <div class="card card10 electric">
                     <img alt="guitar" class="card-img" src="images/catalog/guitar10.png">
                     <h6 class="guitarName">lorem ipsum</h6>
                     <div class="reviewStars">
@@ -188,7 +173,7 @@
                         <span class="price">$ 950</span>
                     </div>
                 </div>
-                <div class="card card11">
+                <div class="card card11 acoustic">
                     <img alt="guitar" class="card-img" src="images/catalog/guitar11.png">
                     <h6 class="guitarName">lorem ipsum</h6>
                     <div class="reviewStars">
@@ -199,7 +184,7 @@
                         <span class="price">$ 950</span>
                     </div>
                 </div>
-                <div class="card card12">
+                <div class="card card12 acoustic">
                     <img alt="guitar" class="card-img" src="images/catalog/guitar12.png">
                     <h6 class="guitarName">lorem ipsum</h6>
                     <div class="reviewStars">
@@ -210,7 +195,7 @@
                         <span class="price">$ 950</span>
                     </div>
                 </div>
-                <div class="card card13">
+                <div class="card card13 acoustic">
                     <img alt="guitar" class="card-img" src="images/catalog/guitar13.png">
                     <h6 class="guitarName">lorem ipsum</h6>
                     <div class="reviewStars">
@@ -221,7 +206,7 @@
                         <span class="price">$ 950</span>
                     </div>
                 </div>
-                <div class="card card14">
+                <div class="card card14 classical">
                     <img alt="guitar" class="card-img" src="images/catalog/guitar14.png">
                     <h6 class="thirdSectionTitle">lorem ipsum</h6>
                     <div class="reviewStars">
@@ -232,7 +217,7 @@
                         <span class="price">$ 950</span>
                     </div>
                 </div>
-                <div class="card card15">
+                <div class="card card15 classical">
                     <img alt="guitar" class="card-img" src="images/catalog/guitar15.png">
                     <h6 class="guitarName">lorem ipsum</h6>
                     <div class="reviewStars">
@@ -243,7 +228,7 @@
                         <span class="price">$ 950</span>
                     </div>
                 </div>
-                <div class="card card16">
+                <div class="card card16 classical">
                     <img alt="guitar" class="card-img" src="images/catalog/guitar16.png">
                     <h6 class="guitarName">lorem ipsum</h6>
                     <div class="reviewStars">
@@ -331,6 +316,7 @@
         </footer>
     </div>
     <script src="script.js"></script>
+    <script src="catalogFilter.js"></script>
     <script src="checkLogin.js"></script>
 </body>
 </html>
