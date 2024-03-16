@@ -1,9 +1,3 @@
-document.body.addEventListener("click", function() {
-  if (!sessionStorage.getItem('isLoggedIn') && window.location.pathname !== "/authorization.html") {
-      window.location.href = "register.html";
-  }
-});
-
 function authorizeUser() {
     const savedUsers = JSON.parse(localStorage.getItem('users')) || [];
     const enteredEmail = document.getElementById('username').value; // Assuming 'username' is the email
